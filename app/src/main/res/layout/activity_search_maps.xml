@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/bluedark">
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+       android:background="@color/bluedark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:elevation="20dp"
+                android:src="@drawable/ic_pin_drop_black_24dp" />
+
+            <AutoCompleteTextView
+                android:id="@+id/searchText"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:hint="Enter Location"
+                android:textColorHint="@color/white"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/searchButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SEARCH"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:onClick="search"
+            android:drawableStart="@drawable/ic_search_black_24dp"
+            android:background="@drawable/buttonstyle"
+            android:textColor="@color/white"/>
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="show"
+            android:textStyle="bold"
+            android:onClick="showPopUp"
+            android:background="@drawable/buttonstyle"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.manisha.walmate.SearchMapsActivity" >
+</fragment>
+</LinearLayout>

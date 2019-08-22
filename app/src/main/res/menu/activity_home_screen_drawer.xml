@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_navinclg"
+            android:icon="@drawable/ic_navigation_black_24dp"
+            android:title="Navigate in WCE" />
+        <item
+            android:id="@+id/nav_navigate"
+            android:icon="@drawable/ic_navigation_black_24dp"
+            android:title="Navigate" />
+        <item
+            android:id="@+id/nav_searchinclg"
+            android:icon="@drawable/ic_place_black_24dp"
+            android:title="Search in WCE" />
+
+        <item
+            android:id="@+id/nav_schedule"
+            android:icon="@drawable/ic_alarm_black_24dp"
+            android:title="Schedule Trip" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_contact_us"
+                android:title="Contact Us"
+                android:icon="@drawable/ic_textsms_black_24dp"
+                />
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/ic_exit_to_app_black_24dp"
+                android:title="Exit" />
+        </menu>
+    </item>
+
+</menu>

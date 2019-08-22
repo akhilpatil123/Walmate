@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1085475286546",
+    "firebase_url": "https://walmate-3f1e7.firebaseio.com",
+    "project_id": "walmate-3f1e7",
+    "storage_bucket": "walmate-3f1e7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1085475286546:android:b13aa49221c22af5",
+        "android_client_info": {
+          "package_name": "com.example.manisha.walmate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1085475286546-06i6v6a57vgplqc6h63lhjd0v967l5h9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.manisha.walmate",
+            "certificate_hash": "0fa3f2dafb35de666ca3be1f89c5ee19ae620397"
+          }
+        },
+        {
+          "client_id": "1085475286546-ajf34376m0k8bibgo5jjcbnacrsuh26o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVfghxzp050l6BzVjpgc-Ls-02kfFWMPk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1085475286546-ajf34376m0k8bibgo5jjcbnacrsuh26o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

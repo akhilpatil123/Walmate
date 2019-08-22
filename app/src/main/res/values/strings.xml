@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Walmate</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_home_screen">HomeScreen</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="enter_destination_place">Enter Destination Place</string>
+    <string name="enter_source_place">Enter Source Place</string>
+    <string name="title_activity_search_maps">Map</string>
+    <string name="title_activity_navigation">Map</string>
+</resources>
